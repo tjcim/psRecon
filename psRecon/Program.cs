@@ -32,6 +32,7 @@ namespace psRecon
                     RunEmbeddedScript(ps, "psRecon.Scripts.LAPSToolkit.ps1");
                     RunEmbeddedScript(ps, "psRecon.Scripts.Invoke-Seatbelt.ps1");
                     RunEmbeddedScript(ps, "psRecon.Scripts.PowerUpSQL.ps1");
+                    RunEmbeddedScript(ps, "psRecon.Scripts.ApplockerRecon.ps1");
 
                     // Execute the raw PowerShell command passed as an argument (if any)
                     if (args.Length > 0)
