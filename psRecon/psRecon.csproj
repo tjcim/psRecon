@@ -86,6 +86,7 @@
     <EmbeddedResource Include="Scripts\Invoke-Seatbelt.ps1" />
 	  <EmbeddedResource Include="Scripts\PowerUpSQL.ps1" />
 	  <EmbeddedResource Include="Scripts\ApplockerRecon.ps1" />
+	  <EmbeddedResource Include="Scripts\Invoke-ReflectivePEInjection.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
